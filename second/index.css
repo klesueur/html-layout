@@ -9,7 +9,7 @@ body {
 
 .top-container {
     border: solid black 3px;
-    height: 100px;
+    height: 120px;
     width: 90%;
     margin: auto;
 
@@ -17,6 +17,7 @@ body {
 
 .purple-box {
 background-color: purple;
+
 }
 
 .green-box {
@@ -40,9 +41,11 @@ background-color: cyan;
     box-sizing: border-box;
 }
 
-#greeting-box {
-font-size: 30px;
-font-weight: bold;
-color: navy;
-height: 50px;
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    letter-spacing: 10px;
+    height: 30px;
+    margin: 0 auto;
 }
