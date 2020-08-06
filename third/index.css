@@ -3,27 +3,49 @@ body, html {
     padding: 0;
   }
 
-.top-gray {
-    height: 100px;
-    width: 100vw;
+  .top-left-corner {
+    height: 75px;
+    width: 75px;
+    background-color: rgb(82, 133, 150);
+    
 }
 
+.top-gray {
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+
+}
+
+
 .white-article {
-    height:
-    width: 
+    height: 300px; 
+    width: 100%;
+
 }
 
 .blue-row {
-    height:
-    width: 
+    height: 100px;
+    width: 100%;
+    background: rgb(82, 133, 150);
+
 }
 
 .cyan-row {
-    height:
-    width: 
+    height: 100px; 
+    width: 100%;
+    background-color: cyan;
+
 }
 
 .yellow-green-row {
-    height:
-    width: 
+    height: 100px; 
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+.yellow-row {
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
 }
