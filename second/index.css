@@ -1,4 +1,13 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+
 .top-container {
+    border: solid black 3px;
+    height: 100px;
+    width: 90%;
+    margin: auto;
 
 }
 
@@ -7,6 +16,7 @@
 }
 
 #green-box {
+     
 
 }
 
@@ -19,13 +29,21 @@
 }
 
 #yellow-box {
-
+    border: 
 }
 
 .bottom-container {
-
+    border: solid black 1px;
+    height: 250px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 #greeting-box {
-    
+font-size: 30px;
+font-weight: bold;
+color: navy;
+height: 50px;
 }
