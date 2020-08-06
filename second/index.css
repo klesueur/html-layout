@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box
+}
+
 body {
     margin: 0;
     padding: 25px;
@@ -11,25 +15,20 @@ body {
 
 }
 
-#purple-box {
-
+.purple-box {
+background-color: purple;
 }
 
-#green-box {
-     
-
+.green-box {
+background-color: green;
 }
 
-#blue-circle {
-
+.blue-circle {
+background-color: cyan;
 }
 
-.mid-container {
+.cream-box {
 
-}
-
-#yellow-box {
-    border: 
 }
 
 .bottom-container {
