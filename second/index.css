@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box
-}
-
 body {
     margin: 0;
     padding: 25px;
@@ -12,7 +8,7 @@ body {
     height: 120px;
     width: 90%;
     margin: auto;
-
+    box-sizing: border-box;
 }
 
 .purple-box {
@@ -43,16 +39,21 @@ body {
     height: 100px;
     width: 80%;
     margin: auto;
-    border
+    border: dotted black 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
 }
 
 .bottom-container {
-    border: solid black 1px;
-    height: 250px;
+    border: solid gray 1px;
+    height: 150px;
     width: 60%;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
+    margin-top: 15px;
+
 }
 
 p {
