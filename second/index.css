@@ -5,14 +5,14 @@ body {
 
 .top-container {
     border: solid black 3px;
-    height: 120px;
+    height: 25vh;
     width: 90%;
     margin: auto;
     box-sizing: border-box;
 }
 
 .purple-box {
-    background-color: purple;
+    background-color: rgb(152, 54, 218);
     height: 80px;
     width: 25px;
     display: inline-block;
@@ -20,7 +20,7 @@ body {
 }
 
 .green-box {
-    background-color: green;
+    background-color: rgb(4, 134, 4);
     height: 100px;
     width: 200px;
     display: inline-block;
@@ -28,39 +28,52 @@ body {
 }
 
 .blue-circle {
-    background-color: cyan;
+    background-color: rgb(117, 230, 230);
     height: 100px;
     width: 100px;
     display: inline-block;
 }
 
-.cream-box {
-    background-color: tan;
-    height: 100px;
-    width: 80%;
+.cream-container {
+    background-color: rgb(255, 255, 255);
+    height: 28vh;
+    width: 90%;
     margin: auto;
-    border: dotted black 2px;
-    padding: 10px;
+    padding: 30px;
+    border: dotted black 3px;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 20px;
+}
+
+.cream-box {
+    background-color: rgb(255, 242, 182);
+    height: 20vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    box-shadow: 5px 5px 5px #2c2c2c;
 }
 
 .bottom-container {
     border: solid gray 1px;
-    height: 150px;
-    width: 60%;
+    box-shadow: 3px 3px 5px gray;
+    height: 35vh;
+    width: 55%;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 30px;
 
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: navy;
     letter-spacing: 10px;
     height: 30px;
     margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 125px;
 }
