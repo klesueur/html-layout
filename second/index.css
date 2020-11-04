@@ -9,29 +9,43 @@ body {
     width: 90%;
     margin: auto;
     box-sizing: border-box;
+    /* position: relative; */
 }
 
 .purple-box {
     background-color: rgb(152, 54, 218);
-    height: 80px;
-    width: 25px;
+    height: 150px;
+    width: 35px;
     display: inline-block;
     margin-right: 25px;
+    /* position: absolute;
+    top: 5px;
+    left: 1px; */
+    position: relative;
+    top: 10px;
+    left: 8px;
 }
 
 .green-box {
     background-color: rgb(4, 134, 4);
-    height: 100px;
-    width: 200px;
+    height: 22vh;
+    width: 375px;
     display: inline-block;
     margin-right: 25px;
+    position: relative;
+    top: 10px;
+    left: 20px;
 }
 
 .blue-circle {
     background-color: rgb(117, 230, 230);
-    height: 100px;
-    width: 100px;
+    height: 20vh;
+    width: 15vw;
     display: inline-block;
+    position: relative;
+    
+    left: 35px;
+    border-radius: 50%;
 }
 
 .cream-container {
